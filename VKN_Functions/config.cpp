@@ -64,7 +64,7 @@ class CfgFunctions {
 
 class Extended_PreInit_EventHandlers {
 	class VKN_Settings_preInit {
-		CUR_missionStart = call compile preprocessfilelinenumbers "\VKN_Functions\XEH_preInit.sqf";
+		init = "CUR_missionStart = call compile preprocessfilelinenumbers '\VKN_Functions\XEH_preInit.sqf';";
 	};
 };
 /*
